@@ -41,7 +41,7 @@ if __name__ == '__main__':
     sailor_parser.add_argument('name', help='Sailors name')
     sailor_parser.add_argument(
         '--greeting',
-        'g',
+        '-g',
         help='Greeting',
         default='Ahoy there',
     )
